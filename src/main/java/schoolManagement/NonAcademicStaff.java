@@ -7,6 +7,8 @@ public class NonAcademicStaff extends Staff implements NonAcademicStaffDoable {
         this.duty = duty;
     }
 
+    public String duty(){ return duty; }
+
     public void performDuty(String duty){
         System.out.println(name + " is " + duty);
     }
