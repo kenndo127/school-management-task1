@@ -1,5 +1,5 @@
 package schoolManagement;
 
-public interface Doable {
+public interface NonAcademicStaffDoable {
     void performDuty(String duty);
 }
