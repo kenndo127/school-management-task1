@@ -8,6 +8,8 @@ public class Teacher extends AcademicStaff implements Teachable{
         this.course = course;
     }
 
+    public Teacher(){}
+
     @Override
     public void teachCourse(Course course){
         System.out.println(name + " is teaching " + course);

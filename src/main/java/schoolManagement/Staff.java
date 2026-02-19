@@ -7,4 +7,6 @@ public class Staff extends Person{
         super(name, age, id);
         this.salary = salary;
     }
+
+    public Staff(){}
 }

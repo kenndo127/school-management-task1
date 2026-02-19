@@ -10,4 +10,5 @@ public abstract class Person {
         this.age = age;
         this.id = id;
     }
+    public Person(){}
 }
